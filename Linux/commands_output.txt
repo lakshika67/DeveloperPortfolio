@@ -1,0 +1,9 @@
+Linux Command Outputs
+
+Actual command outputs will be added after running the commands in the Linux terminal.
+
+Commands to run:
+1. ls -la ~
+2. ps aux | head -10
+3. df -h
+4. free -h

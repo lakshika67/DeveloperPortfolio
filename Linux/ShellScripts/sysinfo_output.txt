@@ -1,0 +1,21 @@
+==================================
+Name: Lakshika Dhasmana
+Roll No: 2601730342
+Date: Sat Oct 10 10:31:06 UTC 2026
+==================================
+
+CPU Information:
+CPU(s):                                  8
+Model name:                              12th Gen Intel(R) Core(TM) i3-1215U
+
+Memory Information:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       450Mi       3.0Gi       4.0Mi       284Mi       3.2Gi
+
+Top 3 Processes by CPU Usage:
+    PID COMMAND         %CPU
+      1 systemd          0.0
+    141 networkd-dispat  0.0
+    217 unattended-upgr  0.0
+
+Report generated successfully.

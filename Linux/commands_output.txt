@@ -1,9 +1,28 @@
-Linux Command Outputs
+# Linux Commands Output
 
-Actual command outputs will be added after running the commands in the Linux terminal.
+## 1. List Home Directory
+Command: `ls -la ~`
 
-Commands to run:
-1. ls -la ~
-2. ps aux | head -10
-3. df -h
-4. free -h
+Output: Refer to Screenshot 3 in the assignment evidence.
+
+## 2. Running Processes
+Command: `ps aux | head -10`
+
+Output: Refer to Screenshot 4 in the assignment evidence.
+
+## 3. Disk Space
+Command: `df -h`
+
+Output: Refer to Screenshot 5 in the assignment evidence.
+
+## 4. Memory Usage
+Command: `free -h`
+
+Output: Refer to Screenshot 6 in the assignment evidence.
+
+## 5. System Information
+Command: `uname -a`
+
+Output: Refer to Screenshot 7 in the assignment evidence.
+
+These commands were executed in the Ubuntu terminal.

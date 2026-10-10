@@ -1,0 +1,6 @@
+System Information Script Output
+
+This file will contain the actual output after running:
+bash sysinfo.sh
+
+Run the script in a Linux terminal and replace this text with the real output.

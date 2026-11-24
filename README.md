@@ -3,24 +3,50 @@
 **Name:** Lakshika Dhasmana  
 **Roll Number:** 2601730342  
 **Course:** B.Tech Computer Science (AI & ML)  
-**University:** K R Mangalam University
+**University:** K.R. Mangalam University
 
 ## About This Project
-This repository documents my beginner developer journey through Linux commands, Bash scripting, API interaction, and a personal HTML portfolio.
+
+This repository documents my beginner developer journey through Linux commands, Bash scripting, API interaction, GitHub workflows, and a personal HTML portfolio.
 
 ## Project Sections
-- **Linux:** System information and command outputs.
-- **Shell Scripts:** System information and backup scripts.
-- **API:** GitHub profile and sample posts API data.
-- **Portfolio:** Resume and learning roadmap.
+
+- **Linux:** System information, binary conversion, and Linux command outputs.
+- **Shell Scripts:** System information and automated folder backup scripts.
+- **API:** GitHub profile and JSONPlaceholder API data.
+- **Portfolio:** Technical resume, learning roadmap, and personal portfolio website.
 
 ## Technologies
+
 Linux, Bash, Git, GitHub, Python, HTML, CSS, SQL, and REST APIs.
 
+## Connect With Me
+
+- **GitHub:** https://github.com/lakshika67
+- **LinkedIn:** https://linkedin.com/in/lakshika-dhasmana-5a5534431
+
+## Screenshots
+
+### Question 2 – Shell Scripting
+
+- [System Information Output](Screenshots/1_sysinfo_output.png)
+- [Backup Demonstration](Screenshots/backup_demo.png)
+- [Script Output](Screenshots/04_script2_output.png)
+- [Backup Folder](Screenshots/14_backup_folder.png)
+- [Backup Log](Screenshots/15_backup_log.png)
+- [Shell Script Files](Screenshots/16_shellscript_files.png)
+- [System Information Script Execution](Screenshots/18_sysinfo_script_execution.png)
+- [Saved System Information Output](Screenshots/19_saved_sysinfo_output.png)
+
+### Portfolio Website
+
+- [Portfolio Top](Screenshots/Portfolio_top.png)
+- [Portfolio Project](Screenshots/Portfolio_project.png)
+- [Portfolio Bottom](Screenshots/Portfolio_bottom.png)
+
 ## Learning Goals
+
 - Improve Linux command-line skills.
 - Write and test Bash scripts.
 - Learn to fetch and process API data.
-- Build and improve a personal portfolio website.
-
-*Note: Project outputs and evidence will be updated as each task is completed and tested.*
+- Build and improve a personal portfolio website.# Beginner Developer Ecosystem Portfolio

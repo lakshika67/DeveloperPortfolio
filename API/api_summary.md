@@ -27,6 +27,17 @@ The posts endpoint returns sample post objects containing fields such as `userId
 ## 5. JSON
 JSON (JavaScript Object Notation) is a text format used to exchange structured data. Tools such as `jq` can extract selected fields from JSON responses.
 
+### jq Filter Used
+
+The following jq filter extracts four fields from the GitHub profile JSON:
+
+`{name:.name, repos:.public_repos, followers:.followers, joined:.created_at}`
+
+- name: Displays the user's name.
+- repos: Displays the number of public repositories.
+- followers: Displays the number of followers.
+- joined: Displays the account creation date.
+
 ## 6. Evidence and Results
 
 - GitHub profile data was retrieved from the GitHub REST API.

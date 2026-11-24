@@ -1,28 +1,58 @@
-# Linux Commands Output
+===== 1. HOME DIRECTORY =====
+total 68
+drwxr-x--- 10 lakshika12 lakshika12 4096 Nov  1 12:25 .
+drwxr-xr-x  3 root       root       4096 Oct  9 15:35 ..
+-rw-------  1 lakshika12 lakshika12 8135 Nov 13 07:56 .bash_history
+-rw-r--r--  1 lakshika12 lakshika12  220 Oct  9 15:35 .bash_logout
+-rw-r--r--  1 lakshika12 lakshika12 3771 Oct  9 15:35 .bashrc
+drwxr-x---  4 lakshika12 lakshika12 4096 Oct  9 15:36 .cache
+drwxr-x---  4 lakshika12 lakshika12 4096 Oct 21 07:32 .config
+-rw-r--r--  1 lakshika12 lakshika12  101 Oct 31 11:42 .gitconfig
+-rw-------  1 lakshika12 lakshika12   20 Nov  1 12:25 .lesshst
+drwx------  3 lakshika12 lakshika12 4096 Oct 23 07:30 .local
+-rw-rw-r--  1 lakshika12 lakshika12    0 Nov 24 09:22 .motd_shown
+-rw-r--r--  1 lakshika12 lakshika12  807 Oct  9 15:35 .profile
+drwxr-xr-x  8 lakshika12 lakshika12 4096 Oct 10 10:17 DeveloperPortfolio
+drwxr-xr-x  2 lakshika12 lakshika12 4096 Oct 10 10:20 DeveloperPortfolio_Backups
+drwxr-xr-x  7 lakshika12 lakshika12 4096 Oct 25 10:55 Downloads
+drwxr-xr-x  2 lakshika12 lakshika12 4096 Oct 25 10:44 cse103_backups
+drwxr-xr-x  4 lakshika12 lakshika12 4096 Oct 31 11:44 cse103_lab
 
-## 1. List Home Directory
-Command: `ls -la ~`
+===== 2. RUNNING PROCESSES =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.4  24240 15376 ?        Ss   09:22   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  09:22   0:00 /init
+root           3  0.0  0.0   3680  2224 hvc0     S+   09:22   0:00 init-watcher
+root           7  0.0  0.0   3820  2292 hvc0     Sl+  09:22   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          47  0.0  0.4  50672 17004 ?        S<s  09:22   0:00 /usr/lib/systemd/systemd-journald
+systemd+      82  0.0  0.3  22428 14472 ?        Ss   09:22   0:00 /usr/lib/systemd/systemd-resolved
+root          90  0.0  0.3  34724 11900 ?        Ss   09:22   0:00 /usr/lib/systemd/systemd-udevd
+root         132  0.0  0.0   2888  2012 ?        Ss   09:22   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         138  0.0  0.0   4472  3128 ?        Ss   09:22   0:00 /usr/sbin/cron -f -P
 
-Output: Refer to Screenshot 3 in the assignment evidence.
+===== 3. DISK SPACE =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         476G  144G  333G  31% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            1.9G   36K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  3.4M  1.9G   1% /init
+none            1.9G  512K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   80K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   80K  1.9G   1% /mnt/wslg/doc
+C:\             476G  144G  333G  31% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.9G     0  1.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           376M   12K  376M   1% /run/user/1000
 
-## 2. Running Processes
-Command: `ps aux | head -10`
-
-Output: Refer to Screenshot 4 in the assignment evidence.
-
-## 3. Disk Space
-Command: `df -h`
-
-Output: Refer to Screenshot 5 in the assignment evidence.
-
-## 4. Memory Usage
-Command: `free -h`
-
-Output: Refer to Screenshot 6 in the assignment evidence.
-
-## 5. System Information
-Command: `uname -a`
-
-Output: Refer to Screenshot 7 in the assignment evidence.
-
-These commands were executed in the Ubuntu terminal.
+===== 4. MEMORY USAGE =====
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       420Mi       3.1Gi       4.1Mi       278Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi

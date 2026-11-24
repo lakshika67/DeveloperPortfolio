@@ -11,10 +11,10 @@ This repository documents my beginner developer journey through Linux commands, 
 
 ## Project Sections
 
-- **Linux:** System information, binary conversion, and Linux command outputs.
-- **Shell Scripts:** System information and automated folder backup scripts.
-- **API:** GitHub profile and JSONPlaceholder API data.
-- **Portfolio:** Technical resume, learning roadmap, and personal portfolio website.
+- **Question 1 – Linux:** [Linux folder](Linux/)
+- **Question 2 – Shell Scripts:** [ShellScripts folder](ShellScripts/)
+- **Question 3 – GitHub & API:** [API folder](API/)
+- **Question 4 – Developer Portfolio:** [Portfolio folder](Portfolio/) | [Live Website](https://lakshika67.github.io/DeveloperPortfolio/)
 
 ## Technologies
 

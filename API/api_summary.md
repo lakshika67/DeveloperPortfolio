@@ -1,6 +1,7 @@
+
 # API Interaction Summary
 
-**Name:** Lakshika Dhasmana  
+**Name:** Lakshika Dhasmana 
 **Roll Number:** 2601730342
 
 ## 1. Introduction
@@ -27,7 +28,11 @@ The posts endpoint returns sample post objects containing fields such as `userId
 JSON (JavaScript Object Notation) is a text format used to exchange structured data. Tools such as `jq` can extract selected fields from JSON responses.
 
 ## 6. Evidence and Results
-The files `github_profile.json` and `sample_posts.json` should contain actual responses from the API endpoints above. Screenshots and verified results will be added after running the requests.
+
+- GitHub profile data was retrieved from the GitHub REST API.
+- JSONPlaceholder API returned 100 sample posts.
+- Both JSON files were validated successfully using `jq`.
+- Screenshots of API responses and results are included in the Screenshots folder.
 
 ## 7. Conclusion
 This exercise demonstrates how REST APIs provide data, how JSON structures responses, and how API results can be documented in a developer portfolio.

@@ -1,6 +1,22 @@
-System Information Script Output
+==================================
+Name: Lakshika Dhasmana
+Roll No: 2601730342
+Date: Tue Nov 24 09:55:15 UTC 2026
+==================================
 
-This file will contain the actual output after running:
-bash sysinfo.sh
+CPU Information:
+Model name:                              12th Gen Intel(R) Core(TM) i3-1215U
+Core(s) per socket:                      4
+Socket(s):                               1
 
-Run the script in a Linux terminal and replace this text with the real output.
+Memory Information:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       443Mi       3.0Gi       4.1Mi       304Mi       3.2Gi
+
+Top 3 Processes by CPU Usage:
+    PID COMMAND         %CPU
+    864 bash            20.0
+    865 tee             20.0
+    832 wsl-pro-service  0.1
+
+Report generated successfully.

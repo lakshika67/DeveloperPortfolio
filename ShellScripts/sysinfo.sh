@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # Author: Lakshika Dhasmana
 # Roll No: 2601730342
@@ -12,9 +13,10 @@ echo "=================================="
 echo ""
 echo "CPU Information:"
 if command -v lscpu >/dev/null 2>&1; then
-    lscpu | grep -E 'Model name|^CPU\(s\):' | head -2
+    lscpu | grep -E 'Model name|^Core\(s\) per socket:|^Socket\(s\):'
 else
     grep -m1 'model name' /proc/cpuinfo
+    echo "CPU Cores: $(grep -c '^processor' /proc/cpuinfo)"
 fi
 
 echo ""

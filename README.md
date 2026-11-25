@@ -1,5 +1,3 @@
-# Beginner Developer Ecosystem Portfolio
-
 **Name:** Lakshika Dhasmana  
 **Roll Number:** 2601730342  
 **Course:** B.Tech Computer Science (AI & ML)  
@@ -49,4 +47,24 @@ Linux, Bash, Git, GitHub, Python, HTML, CSS, SQL, and REST APIs.
 - Improve Linux command-line skills.
 - Write and test Bash scripts.
 - Learn to fetch and process API data.
-- Build and improve a personal portfolio website.# Beginner Developer Ecosystem Portfolio
+- Build and improve a personal portfolio website.
+
+## Education
+
+- B.Tech Computer Science (AI & ML)
+- K.R. Mangalam University
+- Expected Graduation: 2029
+
+## Technical Skills
+
+- Python: Beginner
+- Linux: Beginner
+- Bash: Beginner
+- Git and GitHub: Beginner
+- HTML and CSS: Beginner
+- REST APIs: Beginner
+
+## Portfolio Links
+
+- [Learning Roadmap](Portfolio/learning_roadmap.md)
+- [Progress Tracker](Portfolio/PROGRESS.md)
